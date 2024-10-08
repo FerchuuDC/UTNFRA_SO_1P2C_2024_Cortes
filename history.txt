@@ -1,0 +1,542 @@
+ls
+la -l
+ls -la
+man ls
+man man
+pwd
+whoami
+echo
+echo "free lady boys hereecho!"
+echo "free lady boys here!"
+cat README 
+cd repogit/
+ls
+git clone https://github.com/FerchuuDC/Repo_Cortes.git
+ls
+cd Repo_Cortes/
+ls
+history
+history > hitorial.txt
+ls
+cat hitorial.txt 
+git status
+git add .
+git status
+git commit -m "Mi primer commit"
+git config --global user.email "you@example.com"
+git config --global user.email "fernandodanielcortes@gmail.com"
+git config --global user.name "FerchuuDC"
+git commit -m "Mi primer commit"
+git push
+git status
+exit
+pwd
+echo $HOME
+ls
+ls -l
+ls -la
+ssh-keygen -t ed25519
+ls -la
+cd .ssh
+ls
+la -l
+cat id_ed25519.pub
+cd ..
+ls -l
+cd repogit/
+ls -l
+git clone git@github.com:FerchuuDC/Repo_Cortes.git
+ls
+cd Repo_Cortes/
+ls -l
+echo "hola" > hola.txt
+ls -l
+cat hola.txt 
+git status
+git add.
+git status
+git add .
+git status
+git commit -m "Segundo commit agregamos HOLA"
+git status
+git push
+cat /etc/passwd
+tail /etc/passwd
+tail -n3 /etc/passwd
+cat /etc/passwd | grep vagrant
+cat /etc/passwd | grep bash
+cat /etc/passwd | grep -n bash
+cat /etc/passwd | grep -nv nologin
+cat /etc/passwd | grep -nv nologin | tail -n3
+cat /etc/shadow
+sudo cat /etc/shadow
+lspci
+lscpu
+lscpu | grep Model
+lscpu | grep -i model
+lscpu | grep -i model | head -n1
+lscpu | grep -i model | head -n1 > info_procesador.txt
+cat info_procesador.txt 
+cat archivo1.txt
+ls -l
+cat archivo1.txt
+cat hitorial.txt 
+sort hitorial.txt 
+history
+lscpu | grep -i model
+exit
+ls
+cd repogit/
+ls -la
+cd Repo_Cortes/
+ls
+history
+cat << FIN > bloque_cat.txt
+linea 1
+linea 2
+linea 3
+FIN
+
+cat bloque_cat.txt 
+bc <<< 4+6
+ls -l
+cat hola.txt 
+echo "chau" >> hola.txt 
+cat hola.txt 
+echo "lol_1" > lol_1.txt
+echo "lol_2" > lol_2.txt
+cat lol_1.txt lol_2.txt  > lol.txt
+cat lol.txt 
+cd ..
+whoami
+echo "Usuario=$(whoami)"
+git status
+cd Repo_Cortes/
+git status
+cd ..
+cd .
+cd ..
+ssh-keygen
+cd repogit/
+ls -la
+ls -l
+cd ..
+ls -la
+cat .ssh
+cd .ssh
+cd ..
+cd repogit/
+git clone git@github.com:FerchuuDC/TP_AySO.git
+ls
+clear
+ls
+cd ..
+ls
+ls -l
+ls -la
+ssh-keygen
+ls
+cd home
+cd pwd
+pdw
+pwd
+ls -la
+cd .ssh
+ls -la
+cat id_rsa.pub 
+cd ..
+sudo apt install git
+git --version
+ssh-keygen
+ls -la
+cat .ssh .pub
+cat $HOME/.ssh/*.pub
+cd repogit/
+git clone git@github.com:FerchuuDC/TP_AySO.git
+cd TP_AySO/
+pwd
+ls -l
+ls -la
+cat /etc/os-release
+man grep
+grep HOME_URL cat /etc/os-release
+grep home_url cat /etc/os-release
+man grep
+grep -i home_url cat /etc/os-release
+grep -i Home_url cat /etc/os-release
+whoami
+echo "Usuario=$(whoami)" > datos_usuario.txt
+cat datos_usuario.txt 
+git add .
+git add.
+git add .
+git config --global user.email "fernandodanielcortes@gmail.com"
+git config --global user.name "FerchuuDC"
+git commit -m "ADD: 1er ejercicio sobre datos_usuario.txt"
+git status
+cpuinfo
+grep cpuinfo
+cd repogit/
+cd TP_AySO/
+man grep
+head /proc/cpuinfo | grep "model name"
+head /proc/cpuinfo
+head /proc/cpuinfo | tail -n1
+head /proc/cpuinfo | head -n1
+head /proc/cpuinfo | grep "model name" >> datos_usuario.txt 
+ls
+cat datos_usuario.txt 
+git commit -m “feat: Añadiendo información de CPU”
+git commit “feat: Añadiendo información de CPU”
+git commit -m "ADD: 1er ejercicio sobre datos_usuario.txt feat: Añadiendo información de CPU"
+ls
+cat datos_usuario.txt 
+man git
+git commit
+git commit datos_usuario.txt 
+cd repogit/
+cd TP_AySO/
+ls
+cat datos_usuario.txt 
+git status
+clear
+git status
+git add datos_usuario.txt 
+git .
+git commit -m "feat: Añadiendo informacion del CPU"
+/etc/passwd
+grep /etc/passwd
+cd repogit/
+cd TP_AySO/
+cat /etc/passwd
+man grep
+grep -v "nologin" /etc/passwd
+grep -v "nologin" /etc/passwd | head -n 10
+grep -v "nologin" /etc/passwd | head -n 10 > lista_ordenada.txt
+cat lista_ordenada.txt 
+sort lista_ordenada.txt 
+git status
+git add lista_ordenada.txt 
+git commit -m "ADD: Listado de usuarios ordenada"
+git status
+apropos "dump traffic"
+apropos "dump traffic" > comando_dump_net.txt
+cat comando_dump_net.txt 
+echo apropos "dump traffic" >> comando_dump_net.txt 
+cat comando_dump_net.txt 
+git status
+git add comando_dump_net.txt 
+git commit -m “ADD: Comando para Capturar y analizar el tráfico de red ”
+git commit -m "ADD: Comando para caapturar y analizar el trafico de red"
+git status
+cat comando_dump_net.txt 
+cat README.md 
+ls
+cat <<FIN>> README.md 
+Alumno: Fernando Cortés
+División: 115
+Turno: Mañana
+FIN
+
+cat <<FIN>> README.md 
+Alumno: Fernando Cortés
+División: 115
+Turno: Mañana
+FIN
+
+ls
+git status
+git add README.md 
+docs: "Nombre, división y turno del alumno agregados."
+history -a
+ls
+history -a $HOME/.bash_history
+.bash_history
+history
+ls -la $HOME
+history -a $HOME/.bash_history
+cp $HOME/.bash_history Historial_comandos_Fernando_Cortes.txt
+ls
+cat Historial_comandos_Fernando_Cortes.txt 
+cd..
+cd ..
+exit
+cd repogit/
+cd TP_AySO/
+car README.md 
+cat README.md 
+git status
+git commit -m "ADD: Cree un archivo con el historial de comandos."
+git status
+git add .
+git commit -m "ADD: Cree un archivo con el historial de comandos."
+git status
+git push
+cd ..
+cd r
+cd T
+git status
+cd repogit/
+cd TP_AySO/
+git status
+cd ..
+vagrant halt
+pwd
+ls -l
+cd repogit/
+clear
+ls -o
+ls -l
+clear
+ls -l
+cd UTNFRA_SO_1P2C_2024_Cortes/
+ls -l
+tree
+cd ..
+tree
+exit
+pwd
+c
+q
+pwd
+cd -l
+ls -l
+cd repogit/
+git clone git@github.com:FerchuuDC/UTNFRA_SO_1P2C_2024_Cortes.git
+apt install tree
+clear
+ls -l
+tree
+sudo apt istall tree
+sudo apt install tree
+tree
+clear
+ls -l
+pwd
+git clone git@github.com:upszot/UTN-FRA_SO_Examenes.git
+ls -l
+/UTN-FRA_SO_Examenes/202410/script_Precondicion.sh
+tree
+ls -l
+tree UTN-FRA_SO_Examenes/
+/UTN-FRA_SO_Examenes/202410/script_Precondicion.sh
+~/.bashrc && history -a
+sudo /UTN-FRA_SO_Examenes/202410/script_Precondicion.sh
+cd UTN-FRA_SO_Examenes/
+ls -l
+tree
+clear
+/UTN-FRA_SO_Examenes/202410/script_Precondicion.sh
+~/.bashrc && history -a
+/UTN-FRA_SO_Examenes/202410/script_Precondicion.sh
+~/.bashrc && history -a
+}
+pwd
+clear
+cd repogit/
+ls -l
+cd repogit/
+ls -l
+tre UTN-FRA_SO_Examenes/
+tree UTN-FRA_SO_Examenes/
+cd UTN-FRA_SO_Examenes/
+ls -l
+cd ..
+sufo fdisk -l
+sudo fdisk -l
+exit
+cd repogit/
+la -l
+cd UTNFRA_SO_1P2C_2024_Cortes/
+ls -l
+echo "mkdir -p $HOME/Examenes-UTN/{{alumno1,alumno_2,alumno_3}/parcial{1..3},profesores}" > Punto_A.sh
+ls -l
+tree
+cat Punto_A.sh 
+exit
+cd repogit/
+cd UTNFRA_SO_1P2C_2024_Cortes/
+mkdir RTA_ARCHIVOS_Examen_20241006
+mkdir RTA_SCRIPT_Examen_20241006
+ls -l
+echo "mkdir -p $HOME/Examenes-UTN/{{alumno1,alumno_2,alumno_3}/parcial{1..3},profesores}" > Punto_A.sh >> RTA_SCRIPT_Examen_20241006/
+cd RTA_SCRIPT_Examen_20241006/
+ls -l
+echo "mkdir -p $HOME/Examenes-UTN/{{alumno1,alumno_2,alumno_3}/parcial{1..3},profesores}" > Punto_A.sh
+tree
+cd ..
+tree UTNFRA_SO_1P2C_2024_Cortes/
+cd UTNFRA_SO_1P2C_2024_Cortes/
+cd RTA_SCRIPT_Examen_20241006/
+ls -l
+clear
+sudo fdisk -l
+lsblk
+nano Punto_B.sh
+ls -l
+cat Punto_B.sh 
+clear
+nano Punto_B.sh 
+ls -l
+cat Punto_B.sh 
+lsblk -l
+nano Punto_B.sh 
+cat Punto_B.sh 
+clear
+useradd -m -s /bin/bash 
+clear
+useradd -m -s /bin/bash 
+clear
+useradd -m -s /bin/bash p1c2_2024_A1 
+sudo useradd -m -s /bin/bash p1c2_2024_A1 
+sudo useradd -m -s /bin/bash p1c2_2024_A2 
+sudo useradd -m -s /bin/bash p1c2_2024_A3
+sudo useradd -m -s /bin/bash p1c2_2024_P1 
+sudo groupadd p1c2_2024_gAlumno
+sudo groupadd 
+sudo groupadd p1c2_2024_gProfesores
+clear
+sudo usermod -aG p1c2_2024_gAlumno p1c2_2024_A1
+groups
+groups p1c2_2024_A1
+sudo usermod -aG p1c2_2024_gAlumno p1c2_2024_A2
+sudo usermod -aG p1c2_2024_gAlumno p1c2_2024_A3
+sudo usermod -aG 
+sudo usermod -aG p1c2_2024_gProfesores 
+sudo usermod -aG p1c2_2024_gProfesores p1c2_2024_P1
+clear
+groups
+nano Punto_C.sh
+ls -l
+tree
+cd ..
+cd..
+tree
+cd RTA_SCRIPT_Examen_20241006/
+pwd
+whoami
+cd ..
+exit
+cd repogit/
+cd UTNFRA_SO_1P2C_2024_Cortes/
+ls -l
+cd RTA_S
+cd RTA_SCRIPT_Examen_20241006/
+ls -l
+cd ..
+mkdir Examenes-UTN
+ls -l
+cd Examenes-UTN/
+mkdir -p {alumno1/parcial{1..3},alumno2/parcial{1..3},alumno3/parcial{1..3},profesores}
+cd ..
+tree Examenes-UTN/
+cd RTA_SCRIPT_Examen_20241006/
+ls -l
+nano Punto_C.sh 
+cat Punto_C.sh 
+clear
+cpuinfo
+procinfo
+lsblk
+meminfo
+/proc/cpuinfo
+sudo /proc/cpuinfo
+man grep
+ls -l
+Punto_E.sh
+clear
+nano Punto_E
+ls -l
+nano Punto_E.sh
+cd ..
+cd RTA_ARCHIVOS_Examen_20241006/
+cd ..
+cd RTA_SCRIPT_Examen_20241006/
+ls -l
+nano Punto_E.sh 
+grep MemTotal /proc/meminfo
+sudo dmidecode -t chassis
+grep MemTotal /proc/meminfo
+sudo dmidecode -t chassis
+sudo dmidecode -t chassis | grep -E "Chassis Information|Manufacturer"
+ls -l
+cd ..
+RTA_ARCHIVOS_Examen_20241006/
+ls -l
+cd RTA_ARCHIVOS_Examen_20241006/
+ls -l
+echo > Filtro_Basico.txt
+ls -l
+cd ..
+cd RTA_SCRIPT_Examen_20241006/
+ls -l
+nano Punto_E.sh 
+cd ..
+cd RTA_ARCHIVOS_Examen_20241006/
+la -l
+grep MemTotal /proc/meminfo >> Filtro_Basico.txt 
+cat Filtro_Basico.txt 
+sudo dmidecode -t chassis | grep -E "Chassis Information|Manufacturer" >> Filtro_Basico.txt 
+cat Filtro_Basico.txt 
+cd ..
+RTA_SCRIPT_Examen_20241006/
+cd RTA_SCRIPT_Examen_20241006/
+ls -l
+cd ..
+git status
+ls -l
+cat Punto_A.sh 
+rm Punto_A.sh 
+la -l
+git status
+git commit
+git status
+git commit RTA_ARCHIVOS_Examen_20241006
+git add
+git add RTA_ARCHIVOS_Examen_20241006/
+git add RTA_SCRIPT_Examen_20241006/
+git status
+cd ..
+git add UTNFRA_SO_1P2C_2024_Cortes/
+git status
+cd UTNFRA_SO_1P2C_2024_Cortes/
+git status
+clear
+git remote get-url origin
+whoami
+curl -s ifconfig.me 
+sudo getent shadow
+curl -s ifconfig.me 
+pwd
+cd RTA_SCRIPT_Examen_20241006/
+la -l
+cd ..
+RTA_ARCHIVOS_Examen_20241006/
+cd RTA_ARCHIVOS_Examen_20241006/
+echo > Filtro_Avanzado.txt
+la -l
+echo Mi IP publica es: 152.171.105.22 >> Filtro_Avanzado.txt 
+cat Filtro_Avanzado.txt 
+echo Mi usuario es: vagrant >> Filtro_Avanzado.txt
+echo El hash de mi usuario es: $y$j9T$YKDqIFD.esIbEj1zqtfhF1$2BxW2Gvo/GCjKPKWJ75Rb3jADWRLpZ7W9MOZmyB5RX2:19978:0:99999:7::: >> Filtro_Avanzado.txt 
+echo La url de mi repositorio es: git@github.com:FerchuuDC/UTNFRA_SO_1P2C_2024_Cortes.git >> Filtro_Avanzado.txt 
+cat Filtro_Avanzado.txt 
+cd ..
+cd RTA_SCRIPT_Examen_20241006/
+nano Punto_F.sh
+la -l
+cd..
+cd ..
+git status
+git add
+git add RTA_ARCHIVOS_Examen_20241006/
+git add RTA_SCRIPT_Examen_20241006/
+git status
+history -a
+cd ..
+ls -l
+cd UTNFRA_SO_1P2C_2024_Cortes/
+ls -l
+nano README.md
+cat README.md
+history -a
